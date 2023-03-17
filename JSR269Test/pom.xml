@@ -23,20 +23,19 @@
             <artifactId>JSR269Processor</artifactId>
             <version>${project.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.auto.service/auto-service -->
-        <dependency>
-            <groupId>com.google.auto.service</groupId>
-            <artifactId>auto-service</artifactId>
-            <version>1.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun</groupId>
-            <artifactId>tools</artifactId>
-            <version>1.8</version>
-            <scope>system</scope>
-            <systemPath>${java.home}/../lib/tools.jar</systemPath>
-        </dependency>
-
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.google.auto.service/auto-service &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.google.auto.service</groupId>-->
+<!--            <artifactId>auto-service</artifactId>-->
+<!--            <version>1.0.1</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.sun</groupId>-->
+<!--            <artifactId>tools</artifactId>-->
+<!--            <version>1.8</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${java.home}/../lib/tools.jar</systemPath>-->
+<!--        </dependency>-->
     </dependencies>
     <build>
         <plugins>
